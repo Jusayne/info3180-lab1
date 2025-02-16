@@ -3,16 +3,13 @@
 <head>     
     <meta charset="UTF-8">     
     <title>My Website - About</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" /> 
 </head> 
 <body>     
-    <h1>Jusayne</h1>     
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-       sed do eiusmod tempor incididunt ut labore et dolore magna 
-       aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-       ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-       Duis aute irure dolor in reprehenderit in voluptate velit 
-       esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-       sint occaecat cupidatat non proident, sunt in culpa qui 
-       officia deserunt mollit anim id est laborum.</p> 
+    <h1>Jusayne Chambers</h1> 
+    
+    <img src="{{ url_for('static', filename='css/image.jpg') }}" alt="Image">
+    
+    <p>I am a student at the University of the West Indies, majoring in Computer Science. I would like to become a software developer in the future. I am interested in Web Development because I would like to know what goes on behind the scenes of the webpages I visit daily. I would also like to learn and develop skills that will enable me to build my own webpage(s) in the future.</p> 
 </body> 
 </html>
